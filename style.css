@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:whitesmoke;
+}
+body{
+    /* background-image: url(images\\naruto-uzumaki-3840x2160-12705.jpg); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 40px;
+}
+.login{
+    color:black;
+}
+.container{
+    background-color:blue;
+    width: 40vw;
+    align-self: center;
+    padding: 20px;
+    position: relative;
+    top: 10vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main{
+    display: flex;
+    justify-content: center;   
+}
+.container h1{
+    text-align: center;
+}
+.input{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    justify-content: center;
+    gap: 10px;
+}
+
+input{
+    width: 60%;
+    padding: 10px;
+    display: block;
+    border: solid whitesmoke;
+    border-radius: 20px;
+    outline: none;
+    color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width:700px){
+    input{
+        width: 100%;
+    }
+}
+
+button{
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(115, 223, 115);
+}
+.list{
+    margin-top: 30px;
+}
+ul{
+    list-style: none;   
+}
+ul li{
+    background-color: #fff;
+    color: rgb(147, 15, 15);
+    padding: 10px;
+    border: solid whitesmoke;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+span{
+    color: black;
+}
+img{
+    height: 20px;
+    margin-right: 10px;
+}
+.cross{
+    position:absolute;
+    right: 1px;
+    padding: 5px;
+    border-radius: 2px;
+}
+.wall{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.cross:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logout{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+

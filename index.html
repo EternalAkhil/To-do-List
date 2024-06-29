@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="container" id="con">
+            <h1>TO DO LIST</h1>
+            <div class="input">
+                <input type="text" placeholder="enter...." id="ibox" autocomplete="off">
+                <div class="buts">
+                <button onclick="addTask()">Add</button>
+                <button onclick="clea()">clear</button>
+                </div>
+                
+            </div>
+            <div class="list">
+                <ul id="list">
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+    <div class="wall">
+        <button onclick="changeWallpaper()">change</button>
+    </div>
+    <div class="logout">
+        <button onclick="logout()">logout</button>
+    </div>
+    <script src="script.js"></script>  
+</body>
+</html>
