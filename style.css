@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    color:whitesmoke;
+    box-sizing: border-box;
+    
 }
 body{
     /* background-image: url(images\\naruto-uzumaki-3840x2160-12705.jpg); */
@@ -14,43 +15,53 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 40px;
 }
-.login{
-    color:black;
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    
 }
 .container{
-    background-color:blue;
-    width: 40vw;
-    align-self: center;
+    margin-top: 10%;
+    background-color:rgb(23, 18, 18);
+    color: green;
+    width: 50vw;
+   
+    
     padding: 20px;
     position: relative;
-    top: 10vh;
+  
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.main{
-    display: flex;
-    justify-content: center;   
-}
+
 .container h1{
     text-align: center;
 }
-.input{
-    display: flex;
-    flex-direction: row;
-    height: 40px;
-    justify-content: center;
-    gap: 10px;
-}
-
 input{
-    width: 60%;
+    width: 90%;
     padding: 10px;
     display: block;
     border: solid whitesmoke;
-    border-radius: 20px;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
     outline: none;
     color: black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.buts{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.listcontainer{
+    width:50vw;
+
 }
 
 @media screen and (max-width:700px){
@@ -64,6 +75,7 @@ button{
     padding: 10px;
     border-radius: 5px;
     border: none;
+    color:white;
     font-weight: 600;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -79,12 +91,15 @@ ul{
 }
 ul li{
     background-color: #fff;
-    color: rgb(147, 15, 15);
+    color: white;
     padding: 10px;
-    border: solid whitesmoke;
+    height: 70px;
+  
     margin-bottom: 10px;
+    font-size: x-large;
     position: relative;
     display: flex;
+    outline: none;
     border-radius: 10px;
     align-items: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -94,7 +109,7 @@ span{
     color: black;
 }
 img{
-    height: 20px;
+    height: 30px;
     margin-right: 10px;
 }
 .cross{

@@ -31,7 +31,7 @@ list.addEventListener("click", (e) => {
     
     if (e.target.className === "check") {
         if(e.target.src.includes("square-small.svg")){
-            e.target.parentElement.style.cssText="text-decoration:line-through;background-color:red"
+            e.target.parentElement.style.cssText="text-decoration:line-through;background-color:green;color:white"
             e.target.src="images\\check.svg"
         }
         else{
